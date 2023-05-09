@@ -170,3 +170,15 @@ WHERE vets.name = 'Maisy Smith'
 GROUP BY S 
 ORDER BY CNT 
 DESC LIMIT 1;
+
+-- Query Optimizations
+
+explain analyze SELECT COUNT(*) FROM visits where animals_id = 4
+
+
+CREATE INDEX animals_id_desc ON visits(animals_id DESC);
+
+
+explain analyze SELECT * FROM visits where vets_id = 2;
+
+CREATE INDEX vets_id_desc ON visits(vets_id DESC);

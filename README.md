@@ -194,6 +194,12 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/MudasirIssah)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/mudasiri)
 
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/Amen-Musingarimi)
+- Twitter: [@twitterhandle](https://twitter.com/MusingarimiT)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/atmusingarimi/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -202,7 +208,7 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
+- [ ] **[Database_Table_Optimization]**
 - [ ] **[new_feature_2]**
 - [ ] **[new_feature_3]**
 

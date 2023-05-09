@@ -182,3 +182,9 @@ CREATE INDEX animals_id_desc ON visits(animals_id DESC);
 explain analyze SELECT * FROM visits where vets_id = 2;
 
 CREATE INDEX vets_id_desc ON visits(vets_id DESC);
+
+
+-- Optimizing the owners emails
+explain analyze SELECT * FROM owners WHERE email = 'owner_18327@mail.com';
+
+CREATE INDEX owners_id_asc ON owners(email ASC);
